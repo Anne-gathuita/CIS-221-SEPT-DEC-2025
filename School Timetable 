@@ -7,6 +7,7 @@
       <caption>My Timetable </caption>
       <tr>
         <th>date/time </th>
+        <th> 8am </th>
         <th> 9am </th>
         <th> 10am </th>
        <th> 11am </th>
@@ -15,47 +16,49 @@
          <th> 2pm </th>
          <th> 3pm </th>
          <th> 4pm </th>
+         <th> 5pm </th>
       </tr>
       <tr>
         <th scope "row"> Monday </th>
-        <td> CCI 223 </td>
         <td> </td>
-        <td colspan ="2">CIT 222</td>
-        <td colspan ="2">CIR 201</td>
-        <td colspan ="2">CIT 205</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td colspan ="3">CIR 205</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
       <th scope "row">Tuesday </th>
-      <td colspan ="2">CIM 225</td>
       <td> </td>
-      <td> CIS 212 </td>
-      <td colspan ="2">CIT 104</td>
-      <td colspan ="2">CIM 212</td>
+      <td colspan ="4">CIR 209</td>
+      <td> </td>
+      <td colspan ="4">MMA 207 </td>
+      <td </td>
+      <td </td>
       </tr>
             <tr>
       <th scope "row">Wednesday</th>
+      <td colspan ="4">CIT 211</td>
+      <td></td>
       <td> </td>
-      <td colspan ="2">CIM 205</td>
-      <td> CIT 212 </td>
-      <td colspan ="2">CIR 204</td>
-      <td colspan = "2"> CIR 211</td>
-     
+      <td colspan = "4"> CIT 211 Labwork </td>
       </tr>
       <tr>
         <th scope "row">Thursday</th>
-        <td colspan="2">CIM 201</td>
-        <td> CIS 214 </td>
-        <td colspan="2">CIT 204</td>
-        <td colspan="2">CIM 215</td>
         <td> </td>
+        <td colspan="4">CIM 207</td>
+        <td> </td>
+        <td colspan="4">CIR 201</td>
       </tr>
       <tr>
         <th scope "row">Friday </th>
-        <td colspan="2">CIT 225</td>
-        <td> CIS 212 </td>
+        <td colspan ="2"> CIR 203</td>
+        <td colspan="3">CIS 221</td>
         <td> </td>
-        <td colspan="2">CIT 204</td>
-        <td colspan="2">CIM 213</td>
+        <td> </td>
+        <td> </td>
       </tr>
   </body>
 </html>

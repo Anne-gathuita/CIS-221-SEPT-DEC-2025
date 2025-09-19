@@ -19,6 +19,11 @@
     <!-- Password -->
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Telephone -->
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+254-700-000000"><br><br>
+
     
     <!-- Gender -->
     <label>Gender:</label>

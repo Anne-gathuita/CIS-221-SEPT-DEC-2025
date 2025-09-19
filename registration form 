@@ -24,6 +24,13 @@
     <label for="phone">Phone:</label>
     <input type="tel" id="phone" name="phone" placeholder="+254-700-000000"><br><br>
 
+    <!-- Date & Time -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="regtime">Registration Time:</label>
+    <input type="datetime-local" id="regtime" name="regtime"><br><br>
+
     
     <!-- Gender -->
     <label>Gender:</label>

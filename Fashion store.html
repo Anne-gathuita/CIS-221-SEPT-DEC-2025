@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background: #b6b;
+  color: lemonchiffon;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  color: darkblue;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.header nav a:hover {
+  color: #f9f9f9;
+}
+
+
+
+.offers table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.offers th, .offers td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.offers th {
+  background: peachpuff;
+  color: #222;
+}
+
+.benefits {
+  padding: 40px 20px;
+  background: #fff3f3;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  background: #fff;
+  margin: 10px 0; 
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>TIARANA FASHION STORE</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#offers">Offers</a>
+      <a href="#benefits">Benefits</a>
+    </nav>
+  </header>
+  
+    <section id="products" class="products">
+    <h2> Our Products</h2>
+    <table border="5">
+      <thead>
+        <tr>
+          <th>products</th>
+          <th>price </th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Summer Dress</td>
+          <td>Ksh 1500</td>
+          <td>All colors and sizes available .</td>
+        </tr>
+        <tr>
+          <td>Casual T-shirts</td>
+          <td> Ksh 1000</td>
+          <td>All trendy brands </td>
+        </tr>
+                <tr>
+          <td>Maxi-skirts</td>
+          <td> Ksh 800</td>
+          <td>All desired outfits</td>
+        </tr>
+        <tr>
+          <td>Sneakers</td>
+          <td> Ksh 3500</td>
+          <td>All sizes available</td>
+        </tr>
+        <tr>
+          <td>Hand bags</td>
+          <td> Ksh 1200</td>
+          <td>All sorts of hand bags on store </td>
+        </tr>
+      </tbody>
+      </table>
+  <!-- Sale Offers -->
+  <section id="offers" class="offers">
+    <h2> Upcoming Sale Offers </h2>
+    <table border="5">
+      <thead>
+        <tr>
+          <th>Offer</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Summer Clearance</td>
+          <td>10 Oct 2025</td>
+          <td>20 Oct 2025</td>
+          <td>Up to 50% off summer outfits.</td>
+        </tr>
+        <tr>
+          <td>Buy 2 Get 1 Free</td>
+          <td>1 Nov 2025</td>
+          <td>7 Nov 2025</td>
+          <td>Buy two accessories, get one free.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits" class="benefits">
+    <h2>Why Shop With Us?</h2>
+    <ul>
+      <li>Quality fashion at affordable prices.</li>
+      <li>Fast and secure checkout process.</li>
+      <li>Free returns within 14 days.</li>
+      <li>Exclusive loyalty rewards.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Fashion Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
